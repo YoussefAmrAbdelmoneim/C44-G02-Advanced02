@@ -66,7 +66,7 @@ namespace Assignment_2_Advanced
         //    return result;
         //}
         #endregion
-        #region MyRegion
+        #region Q6
         //public static ArrayList RemoveOdd(ArrayList? list)
         //{
         //    if (list == null)
@@ -167,6 +167,12 @@ namespace Assignment_2_Advanced
             //{
             //    Console.WriteLine(item);
             //}
+            #endregion
+            #region Q7
+            //Queue queue = new Queue();
+            //queue.Enqueue(1);
+            //queue.Enqueue("Apple");
+            //queue.Enqueue(5.28);
             #endregion
         }
     }
