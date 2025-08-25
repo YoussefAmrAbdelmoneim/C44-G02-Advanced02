@@ -141,6 +141,26 @@ namespace Assignment_2_Advanced
         //    return null;
         //}
         #endregion
+        #region Q11
+        //public static Queue<int> ReverseFirstKElements(Queue<int> queue, int k)
+        //{
+        //    Stack<int> stack = new Stack<int>();
+        //    for (int i = 0; i < k; i++)
+        //    {
+        //        stack.Push(queue.Dequeue());
+        //    }
+        //    while (stack.Count > 0)
+        //    {
+        //        queue.Enqueue(stack.Pop());
+        //    }
+        //    int n = queue.Count - k;
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        queue.Enqueue(queue.Dequeue());
+        //    }
+        //    return queue;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -260,6 +280,18 @@ namespace Assignment_2_Advanced
             //    Console.WriteLine("Contiguous sublist: [" + string.Join(", ", result.ToArray()) + "]");
             //else
             //    Console.WriteLine("No sublist found with the target sum.");
+            #endregion
+            #region Q11
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
+            //queue.Enqueue(5);
+            //int k = 3;
+            //Queue<int> result = ReverseFirstKElements(queue, k);
+            //Console.WriteLine("Result:");
+            //Console.WriteLine("[" + string.Join(", ", result) + "]");
             #endregion
         }
     }
