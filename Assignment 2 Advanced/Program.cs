@@ -1,4 +1,6 @@
-﻿namespace Assignment_2_Advanced
+﻿using System.Collections;
+
+namespace Assignment_2_Advanced
 {
     internal class Program
     {
@@ -62,6 +64,21 @@
         //    int[] result = new int[j];
         //    Array.Copy(temp, result, j);
         //    return result;
+        //}
+        #endregion
+        #region MyRegion
+        //public static ArrayList RemoveOdd(ArrayList? list)
+        //{
+        //    if (list == null)
+        //        return new ArrayList();
+        //    for (int i = list.Count - 1; i >= 0; i--)
+        //    {
+        //        if ((int?)list[i] % 2 != 0)
+        //        {
+        //            list.RemoveAt(i);
+        //        }
+        //    }
+        //    return list;
         //}
         #endregion
         static void Main(string[] args)
@@ -139,6 +156,14 @@
             //int[] arr = [ 1, 2, 3, 4, 2, 3 ];
             //int[] removedDuplicationArray = RemoveDuplication(arr);
             //foreach (var item in removedDuplicationArray)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+            #region Q6
+            //ArrayList arrayList = new ArrayList() { 1, 2, 3, 4, 5, 6 };
+            //RemoveOdd(arrayList);
+            //foreach (int item in arrayList)
             //{
             //    Console.WriteLine(item);
             //}
