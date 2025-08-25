@@ -16,6 +16,34 @@
         //    }
         //}
         #endregion
+        #region Q4
+        //public static bool IsBalanced(string parentheses)
+        //{
+        //    Stack<char> stack = new Stack<char>();
+
+        //    foreach (char c in parentheses)
+        //    {
+        //        if (c == '(' || c == '{' || c == '[')
+        //        {
+        //            stack.Push(c);
+        //        }
+        //        else if (c == ')' || c == '}' || c == ']')
+        //        {
+        //            if (stack.Count == 0) return false;
+
+        //            char top = stack.Pop();
+
+        //            if ((c == ')' && top != '(') ||
+        //                (c == '}' && top != '{') ||
+        //                (c == ']' && top != '['))
+        //            {
+        //                return false;
+        //            }
+        //        }
+        //    }
+        //    return stack.Count == 0;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -79,6 +107,13 @@
             //{
             //    Console.Write($"{item} ");
             //}
+            #endregion
+            #region Q4
+            //string parentheses = "[()]{ }";
+            //if (IsBalanced(parentheses))
+            //    Console.WriteLine("Balanced");
+            //else
+            //    Console.WriteLine("Not Balanced");
             #endregion
         }
     }
