@@ -120,6 +120,27 @@ namespace Assignment_2_Advanced
         //    return result.ToArray();
         //}
         #endregion
+        #region Q10
+        //public static ArrayList FindContiguousSublist(ArrayList? list, int target)
+        //{
+        //    for (int i = 0; i < list?.Count; i++)
+        //    {
+        //        int sum = 0;
+        //        ArrayList sublist = new ArrayList();
+        //        for (int j = i; j < list.Count; j++)
+        //        {
+        //            int current = (int?)list[j]??0;
+        //            sum += current;
+        //            sublist.Add(current);
+        //            if (sum == target)
+        //                return sublist;
+        //            else if (sum > target)
+        //                break;
+        //        }
+        //    }
+        //    return null;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -230,6 +251,15 @@ namespace Assignment_2_Advanced
             //int[] intersection = IntersectArrays(arr1, arr2);
             //Console.WriteLine("Intersection:");
             //Console.WriteLine("[" + string.Join(", ", intersection) + "]");
+            #endregion
+            #region 10
+            //ArrayList list = new ArrayList() { 1, 2, 3, 7, 5 };
+            //int target = 12;
+            //ArrayList result = FindContiguousSublist(list, target);
+            //if (result != null)
+            //    Console.WriteLine("Contiguous sublist: [" + string.Join(", ", result.ToArray()) + "]");
+            //else
+            //    Console.WriteLine("No sublist found with the target sum.");
             #endregion
         }
     }
