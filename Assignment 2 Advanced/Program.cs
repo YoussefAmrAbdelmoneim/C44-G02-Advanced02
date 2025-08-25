@@ -44,6 +44,26 @@
         //    return stack.Count == 0;
         //}
         #endregion
+        #region Q5
+        //public static int[] RemoveDuplication(int[] arr)
+        //{
+        //    Array.Sort(arr);
+        //    int n = arr.Length;
+        //    int[] temp = new int[n];
+        //    int j = 0;
+        //    for (int i = 0; i < n - 1; i++)
+        //    {
+        //        if (arr[i] != arr[i + 1])
+        //        {
+        //            temp[j++] = arr[i];
+        //        }
+        //    }
+        //    temp[j++] = arr[n - 1];
+        //    int[] result = new int[j];
+        //    Array.Copy(temp, result, j);
+        //    return result;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -114,6 +134,14 @@
             //    Console.WriteLine("Balanced");
             //else
             //    Console.WriteLine("Not Balanced");
+            #endregion
+            #region Q5
+            //int[] arr = [ 1, 2, 3, 4, 2, 3 ];
+            //int[] removedDuplicationArray = RemoveDuplication(arr);
+            //foreach (var item in removedDuplicationArray)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
         }
     }
