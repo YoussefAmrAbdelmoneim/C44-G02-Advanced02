@@ -81,6 +81,26 @@ namespace Assignment_2_Advanced
         //    return list;
         //}
         #endregion
+        #region Q8
+        //public static void StackSearch(Stack<int> stack , int target )
+        //{
+        //    int count = 0;
+        //    bool isFound = false;
+        //    while (stack.Count > 0)
+        //    {
+        //        count++;
+        //        if (stack.Pop() == target)
+        //        {
+        //            isFound = true;
+        //            break;
+        //        }
+        //    }
+        //    if (isFound)
+        //        Console.WriteLine($"Target was found successfully and the count = {count}");
+        //    else
+        //        Console.WriteLine("Target was not found");
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -173,6 +193,17 @@ namespace Assignment_2_Advanced
             //queue.Enqueue(1);
             //queue.Enqueue("Apple");
             //queue.Enqueue(5.28);
+            #endregion
+            #region Q8
+            //Stack<int> stack = new Stack<int>();
+            //int[] numbers = [ 3, 7, 1, 9, 5, 2 ];
+            //foreach (int item in numbers)
+            //{
+            //    stack.Push(item);
+            //}
+            //Console.Write("Enter the target integer: ");
+            //  int.TryParse(Console.ReadLine(),out int target);
+            //StackSearch(stack, target);
             #endregion
         }
     }
