@@ -101,6 +101,25 @@ namespace Assignment_2_Advanced
         //        Console.WriteLine("Target was not found");
         //}
         #endregion
+        #region Q9
+        //public static int[] IntersectArrays(int[] arr1, int[] arr2)
+        //{
+        //    List<int> result = new List<int>();
+        //    for (int i = 0; i < arr2.Length; i++)
+        //    {
+        //        for (int j = 0; j < arr1.Length; j++)
+        //        {
+        //            if (arr2[i] == arr1[j])
+        //            {
+        //                result.Add(arr2[i]);
+        //                arr1[j] = int.MinValue;
+        //                break;
+        //            }
+        //        }
+        //    }
+        //    return result.ToArray();
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Q1
@@ -204,6 +223,13 @@ namespace Assignment_2_Advanced
             //Console.Write("Enter the target integer: ");
             //  int.TryParse(Console.ReadLine(),out int target);
             //StackSearch(stack, target);
+            #endregion
+            #region Q9
+            //int[] arr1 = { 1, 2, 3, 4, 4 };
+            //int[] arr2 = { 10, 4, 4 };
+            //int[] intersection = IntersectArrays(arr1, arr2);
+            //Console.WriteLine("Intersection:");
+            //Console.WriteLine("[" + string.Join(", ", intersection) + "]");
             #endregion
         }
     }
